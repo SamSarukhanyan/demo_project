@@ -29,7 +29,7 @@ app.use("/products", adminRoutes);
 app.use("/categories", categoryRoutes);
 app.use((req, res) => {
   const viewsData = {
-    pageTitle: "Page Not Foundddd",
+    pageTitle: "Page Not Foundddd !!!!!!",
   };
   res.status(404).json(viewsData);
 });
